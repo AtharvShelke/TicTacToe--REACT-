@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(5, 5, 5);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+.board-container{
+    background-color: #fff;
+    width: max-content;
+    
+}
+.row-container{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.square{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+.winner-card{
+    height: 454px;
+    width: 454px;
+    border: 1px solid black;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+   
+    font-size: 32px;
+}
+.play-again{
+    margin-top: 5rem;
+    font-size: 24px;
+    font-weight: 600;
+    width: 50%;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 0.15s ease;
+}
+.play-again:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid black;
+    
+}
+.reset-btn{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    transition: all 0.15s ease;
+    padding: 10px 0;
+    cursor: pointer;
+
+}
+.reset-btn:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid black;
+}
